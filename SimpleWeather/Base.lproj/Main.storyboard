@@ -15,18 +15,29 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="KqI-sS-huN">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="KqI-sS-huN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CUa-2M-FLa"/>
+                            <constraint firstItem="KqI-sS-huN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Fsl-6d-IjA"/>
+                            <constraint firstItem="KqI-sS-huN" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="IgL-7m-mZd"/>
+                            <constraint firstItem="KqI-sS-huN" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="nZd-A9-2Or"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="132" y="-27"/>
+            <point key="canvasLocation" x="130.53435114503816" y="-27.464788732394368"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
